@@ -3,12 +3,12 @@
   /*line-height: 1.5;*/
   line-height: 1;
   font-weight: 400;
-background-image: url('https://i.pinimg.com/originals/f2/5c/b3/f25cb32b84770b377dc0e940baf0618c.jpg');
+/*background-image: url('https://i.pinimg.com/originals/f2/5c/b3/f25cb32b84770b377dc0e940baf0618c.jpg');
 background-position: right;
-background-size: contain;
+background-size: contain;*/
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: rgba(0,0,0,.25);
   /*background-color: #242424;*/
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -25,7 +25,7 @@ background-size: contain;
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  place-items: top;
   min-width: 320px;
   min-height: 100vh;
 }
