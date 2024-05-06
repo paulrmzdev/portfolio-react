@@ -23,7 +23,7 @@ function SocialMediaButton({target,name,size=40,icon}) {
     return (
         <>
             <div className="button" style={containerStyles}>
-                <a href={TARGET} target="_blank" rel="noopener noreferrer" style={labelStyles} title={NAME}><img width={size-15} height={size-15} src={icon} alt={NAME}/></a>
+                <a href={TARGET} target="_blank" rel="noopener noreferrer" style={labelStyles} title={NAME}><img width={size-15} height={size-15} src={icon} alt={NAME} title={NAME}/></a>
             </div>
         </>
     )
