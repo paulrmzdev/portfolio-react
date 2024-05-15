@@ -55,7 +55,7 @@ function App() {
 
       <Project name="Landing Social Page" techs={["ReactJS"]} 
       description="Diseño y desarrollo página de enlaces (landing social), para Autolavado." 
-      image="https://private-user-images.githubusercontent.com/89807520/330175627-0f193a40-91ef-4253-989c-f99461af2958.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTU3ODYwNjAsIm5iZiI6MTcxNTc4NTc2MCwicGF0aCI6Ii84OTgwNzUyMC8zMzAxNzU2MjctMGYxOTNhNDAtOTFlZi00MjUzLTk4OWMtZjk5NDYxYWYyOTU4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTE1VDE1MDkyMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWEyZjUyMGZmNWY1MWNjNGIxYjViNzU5ODMyMGUxZDNmZDllZDZjOGUzZjE4YzFiMzk2ZjA3YjIxYTA1MDEyODgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.PMRQkiddI8Ek1dkKCNVgS4gNRYVDkTR6FMCAX_N7sY8" 
+      image="https://morrisautolavado.com/screenshot-min.png" 
       view="https://morrisautolavado.com"
       code="https://github.com/paulrmzdev/morrisautolavado"/>
 
