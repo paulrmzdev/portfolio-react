@@ -49,7 +49,7 @@ function App() {
 
       <Project name="Porfolio v1.0" techs={["HTML","CSS","JS"]} 
       description="Diseño y desarrollo de la primera versión de mi porfolio web." 
-      image="https://user-images.githubusercontent.com/89807520/194788623-2b755c6d-aa4e-4dad-8ace-bfa36403ec9b.png" 
+      image="https://paulrmz.netlify.app/assets/img/screenshot-min.png" 
       view="https://paulrmz.netlify.app/"
       code="https://github.com/paulrmzdev/portafolio"/>
 
