@@ -7,23 +7,17 @@ function SocialMediaButton({target,name,size=40,icon}) {
 
     const containerStyles= {
         display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        margin: 10,
+        justifyContent: "start",
+        alignItems: "start",
+        marginLeft:0,
         width: size,
         height: size,
-        background: "white",
-        borderRadius: "100%"
-    };
-
-    const labelStyles = {
-        content: "Github"
     };
 
     return (
         <>
-            <div className="button" style={containerStyles}>
-                <a href={TARGET} target="_blank" rel="noopener noreferrer" style={labelStyles} title={NAME}><img width={size-15} height={size-15} src={icon} alt={NAME} title={NAME}/></a>
+            <div className="socialbutton" style={containerStyles} title={name}>
+                <a href={TARGET} target="_blank" rel="noopener noreferrer" title={NAME}><img width={size-15} height={size-15} src={icon} alt={NAME} title={NAME}/></a>
             </div>
         </>
     )
