@@ -1,11 +1,9 @@
 import './App.css';
 import Avatar from './components/Avatar';
 import Project from './components/Project';
-import Condtdown from './components/Countdown';
 import SocialMediaButton from './components/SocialMediaButton';
 
 function App() {
-  const DEADLINE=new Date('2024-06-01T00:01:00');
   const SPACE=40;
   return (
     <>
@@ -71,8 +69,6 @@ function App() {
       view="https://paulrmz.netlify.app/cms"
       code="https://github.com/paulrmzdev/PHP-CMS"/>
       </div>
-      <Condtdown deadline={DEADLINE} darkmode={true} bground={false} size={70} />
-      <p style={{marginTop: 15}}>{"I will release this (hopefully, if I'm not busy) in"}</p>
       <img src="https://paulrmz.com/assets/img/Firma-min.png" alt="Logo" title='firma' width={100}/>
       <div className=""><span>© 2024 </span><a href="http://paulrmz.dev" target="_blank" rel="noopener noreferrer" style={{textDecoration:"none",color:"var(--primary-color)"}}>Paulrmz</a>, All Right Reserved. </div> 
     </>
