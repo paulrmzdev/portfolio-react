@@ -70,6 +70,13 @@ function App() {
       code="https://github.com/paulrmzdev/PHP-CMS"/>
       </div>
       <img src="https://paulrmz.com/assets/img/Firma-min.png" alt="Logo" title='firma' width={100}/>
+      <div className="socialMedia" style={{display:"flex",justifyContent:"center"}}>
+            <SocialMediaButton name="Github" target="https://github.com/paulrmzdev" icon="https://img.icons8.com/ios-filled/50/ffffff/github.png"/>
+            <SocialMediaButton name="LinkedIn" target="https://www.linkedin.com/in/paulrmz" icon="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png"/>
+            <SocialMediaButton name="Spotify" target="https://open.spotify.com/playlist/6luQ67i1QhTIWSicxkr1f3?si=0e9e81559e804247" icon="https://img.icons8.com/ios-filled/50/ffffff/spotify.png"/>
+            <SocialMediaButton name="Email" target="mailto:hola@paulrmz.com" icon="https://img.icons8.com/ios-filled/50/ffffff/circled-envelope.png"/>
+            <SocialMediaButton name="CV" target="https://paulrmz.dev/CV-PaulRmz.pdf" icon="https://img.icons8.com/sf-black-filled/64/ffffff/downloading-updates.png"/>
+          </div>
       <div className=""><span>© 2024 </span><a href="http://paulrmz.dev" target="_blank" rel="noopener noreferrer" style={{textDecoration:"none",color:"var(--primary-color)"}}>Paulrmz</a>, All Right Reserved. </div> 
     </>
   )
